@@ -1,0 +1,697 @@
+{
+  "users": {
+    "demo-user-1": {
+      "passwordHash": "password123",
+      "profile": {
+        "id": "demo-user-1",
+        "username": "المحاسب المالي",
+        "emailOrPhone": "demo@accountant.com",
+        "avatar": "👨‍💼",
+        "companyName": "شركة القمة التجارية للتقنية",
+        "currency": "د.ل",
+        "level": 1,
+        "xp": 400,
+        "xpToNextLevel": 500,
+        "score": 5850,
+        "streakDays": 3,
+        "currentDay": 2,
+        "rankTitle": "محاسب مالي متدرب",
+        "totalEntriesCount": 1,
+        "correctEntriesCount": 1,
+        "badges": [
+          {
+            "id": "first_entry",
+            "name": "المحاسب المبتدئ",
+            "nameEn": "First Entry",
+            "icon": "PenTool",
+            "description": "تسجيل أول قيد يومية متوازن وصحيح بنجاح",
+            "unlockedAt": "مكتسب عند البداية"
+          },
+          {
+            "id": "balance_master",
+            "name": "سيد التوازن",
+            "nameEn": "Balance Master",
+            "icon": "Scale",
+            "description": "تحقيق توازن تام في ميزان المراجعة والمعادلة المحاسبية"
+          },
+          {
+            "id": "profit_hunter",
+            "name": "صانع الأرباح",
+            "nameEn": "Profit Hunter",
+            "icon": "TrendingUp",
+            "description": "تحقيق صافي ربح إيجابي في قائمة الدخل بنهاية الفترة"
+          },
+          {
+            "id": "auditor_friend",
+            "name": "المحاسب المدقق",
+            "nameEn": "Audit Master",
+            "icon": "ShieldCheck",
+            "description": "الحصول على تقييم 95%+ من مدقق الذكاء الاصطناعي في 5 قيود متتالية"
+          },
+          {
+            "id": "cfo_star",
+            "name": "المدير المالي التنفيذي",
+            "nameEn": "CFO Master",
+            "icon": "Award",
+            "description": "الوصول إلى المستوى 5 وتجاوز رأس مال 150,000 د.ل بنجاح"
+          }
+        ],
+        "createdAt": "2026-10-19T09:49:44.986Z"
+      },
+      "accounts": [
+        {
+          "id": "1101",
+          "code": "1101",
+          "name": "الصندوق / النقدية بالخزينة",
+          "nameEn": "Cash on Hand",
+          "category": "assets",
+          "nature": "debit",
+          "balance": 40000,
+          "initialBalance": 20000,
+          "description": "الأموال النقدية السائلة المتوفرة في خزينة الشركة للمدفوعات الفورية"
+        },
+        {
+          "id": "1102",
+          "code": "1102",
+          "name": "البنك - الحساب الجاري",
+          "nameEn": "Bank - Checking Account",
+          "category": "assets",
+          "nature": "debit",
+          "balance": 160000,
+          "initialBalance": 80000,
+          "description": "الودائع والأرصدة البنكية الجارية المستخدمة في الشيكات والتحويلات"
+        },
+        {
+          "id": "1103",
+          "code": "1103",
+          "name": "المدينون / العملاء (ذمم مدينة)",
+          "nameEn": "Accounts Receivable",
+          "category": "assets",
+          "nature": "debit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "المبالغ المستحقة للشركة على العملاء مقابل مبيعات أو خدمات آجلة"
+        },
+        {
+          "id": "1104",
+          "code": "1104",
+          "name": "بضاعة المخزون",
+          "nameEn": "Merchandise Inventory",
+          "category": "assets",
+          "nature": "debit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "قيمة السلع والبضائع الجاهزة للبيع في مستودعات الشركة"
+        },
+        {
+          "id": "1201",
+          "code": "1201",
+          "name": "الأثاث والتجهيزات المكتبية",
+          "nameEn": "Office Furniture & Fixtures",
+          "category": "assets",
+          "nature": "debit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "الأصول الرأسمالية الثابتة مثل المكاتب والكراسي والكمبيوترات"
+        },
+        {
+          "id": "1202",
+          "code": "1202",
+          "name": "سيارات ووسائل النقل",
+          "nameEn": "Vehicles & Equipment",
+          "category": "assets",
+          "nature": "debit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "المركبات المملوكة للشركة المستخدمة في التوصيل والأعمال"
+        },
+        {
+          "id": "1203",
+          "code": "1203",
+          "name": "مجمع إهلاك الأصول الثابتة",
+          "nameEn": "Accumulated Depreciation",
+          "category": "assets",
+          "nature": "credit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "حساب مقابل للأصول يمثل إجمالي النقص التراكمي في قيمة الأصول"
+        },
+        {
+          "id": "2101",
+          "code": "2101",
+          "name": "الدائنون / الموردون (ذمم دائنة)",
+          "nameEn": "Accounts Payable",
+          "category": "liabilities",
+          "nature": "credit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "المبالغ المستحقة على الشركة للموردين نتيجة الشراء بالآجل"
+        },
+        {
+          "id": "2102",
+          "code": "2102",
+          "name": "أوراق دفع ومستحقات قصيرة الأجل",
+          "nameEn": "Notes Payable (Short Term)",
+          "category": "liabilities",
+          "nature": "credit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "كمبيالات وسندات إذنيه ملزمة بالسداد خلال الدورة التشغيلية"
+        },
+        {
+          "id": "2103",
+          "code": "2103",
+          "name": "رواتب ومستحقات عمالية مستحقة",
+          "nameEn": "Accrued Salaries Payable",
+          "category": "liabilities",
+          "nature": "credit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "رواتب مستحقة لموظفي الشركة لم تُصرف بعد بنهاية الفترة"
+        },
+        {
+          "id": "2201",
+          "code": "2201",
+          "name": "قروض وتسهيلات بنكية طويلة الأجل",
+          "nameEn": "Long-term Bank Loan",
+          "category": "liabilities",
+          "nature": "credit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "التزامات تمويلية للبنك تسدد على أقساط تتجاوز العام المالي"
+        },
+        {
+          "id": "3101",
+          "code": "3101",
+          "name": "رأس المال المدفوع",
+          "nameEn": "Paid-in Capital",
+          "category": "equity",
+          "nature": "credit",
+          "balance": 200000,
+          "initialBalance": 100000,
+          "description": "حصة الملاك والشركاء المستثمرة في تمويل الشركة عند التأسيس"
+        },
+        {
+          "id": "3102",
+          "code": "3102",
+          "name": "الأرباح المبقاة / المحتجزة",
+          "nameEn": "Retained Earnings",
+          "category": "equity",
+          "nature": "credit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "تراكم الأرباح الصافية غير الموزعة المتبقية لدعم نمو الشركة"
+        },
+        {
+          "id": "3103",
+          "code": "3103",
+          "name": "مسحوبات شخصية للمالك",
+          "nameEn": "Owner's Drawings",
+          "category": "equity",
+          "nature": "debit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "الأموال أو الأصول التي سحبها المالك لأغراضه الخاصة"
+        },
+        {
+          "id": "4101",
+          "code": "4101",
+          "name": "إيراد المبيعات التجارية",
+          "nameEn": "Sales Revenue",
+          "category": "revenues",
+          "nature": "credit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "عوائد بيع السلع والمنتجات للعملاء نقداً أو بالآجل"
+        },
+        {
+          "id": "4102",
+          "code": "4102",
+          "name": "إيرادات تقديم خدمات واستشارات",
+          "nameEn": "Service & Consulting Revenue",
+          "category": "revenues",
+          "nature": "credit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "العوائد الناتجة عن الأعمال الخدمية والاستشارية للعملاء"
+        },
+        {
+          "id": "4201",
+          "code": "4201",
+          "name": "خصم مكتسب وإيرادات تمويلية",
+          "nameEn": "Discount Received / Other Income",
+          "category": "revenues",
+          "nature": "credit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "تخفيضات نقدية ممنوحة من الموردين أو إيرادات أخرى"
+        },
+        {
+          "id": "5101",
+          "code": "5101",
+          "name": "تكلفة البضاعة المباعة (COGS)",
+          "nameEn": "Cost of Goods Sold",
+          "category": "expenses",
+          "nature": "debit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "التكلفة المباشرة للسلع التي تم بيعها خلال الفترة المالية"
+        },
+        {
+          "id": "5102",
+          "code": "5102",
+          "name": "مصروف الرواتب والأجور",
+          "nameEn": "Salaries & Wages Expense",
+          "category": "expenses",
+          "nature": "debit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "مستحقات وأجور فريق العمل والموظفين عن جهودهم"
+        },
+        {
+          "id": "5103",
+          "code": "5103",
+          "name": "مصروف إيجار المقر والمستودع",
+          "nameEn": "Rent Expense",
+          "category": "expenses",
+          "nature": "debit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "تكلفة استئجار المكاتب ومقر النشاط التشغيلي للشركة"
+        },
+        {
+          "id": "5104",
+          "code": "5104",
+          "name": "مصروفات المرافق (كهرباء ومياه وإنترنت)",
+          "nameEn": "Utilities & Telecom Expense",
+          "category": "expenses",
+          "nature": "debit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "فواتير استهلاك الخدمات العامة للتشغيل اليومي"
+        },
+        {
+          "id": "5105",
+          "code": "5105",
+          "name": "مصروف التسويق والدعاية",
+          "nameEn": "Marketing & Advertising",
+          "category": "expenses",
+          "nature": "debit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "الحملات الإعلانية وجلب العملاء الجدد للشركة"
+        },
+        {
+          "id": "5106",
+          "code": "5106",
+          "name": "مصروف إهلاك الأصول الثابتة",
+          "nameEn": "Depreciation Expense",
+          "category": "expenses",
+          "nature": "debit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "توزيع التكلفة التاريخية للأصل على عمره الإنتاجي التقديري"
+        },
+        {
+          "id": "5107",
+          "code": "5107",
+          "name": "مصروفات بنكية وفوائد تمويل",
+          "nameEn": "Bank Charges & Interest Expense",
+          "category": "expenses",
+          "nature": "debit",
+          "balance": 0,
+          "initialBalance": 0,
+          "description": "رسوم المعاملات المصرفية وفوائد القروض"
+        }
+      ],
+      "journalEntries": [
+        {
+          "id": "entry-1792403602857",
+          "entryNumber": 1,
+          "date": "2026-10-19",
+          "description": "أودع مؤسسو الشركة مبلغ 80,000 د.ل في الحساب الجاري بالبنك، ومبلغ 20,000 د.ل في خزينة الصندوق كنقدية تشغيلية أولية مقابل رأس المال.",
+          "scenarioId": "sc-1",
+          "lines": [
+            {
+              "id": "line-1792403602857-0",
+              "accountId": "1102",
+              "accountCode": "1102",
+              "accountName": "البنك - الحساب الجاري",
+              "debit": 80000,
+              "credit": 0,
+              "note": ""
+            },
+            {
+              "id": "line-1792403602857-1",
+              "accountId": "1101",
+              "accountCode": "1101",
+              "accountName": "الصندوق / النقدية بالخزينة",
+              "debit": 20000,
+              "credit": 0,
+              "note": ""
+            },
+            {
+              "id": "line-1792403602857-2",
+              "accountId": "3101",
+              "accountCode": "3101",
+              "accountName": "رأس المال المدفوع",
+              "debit": 0,
+              "credit": 100000,
+              "note": ""
+            }
+          ],
+          "totalDebit": 100000,
+          "totalCredit": 100000,
+          "isBalanced": true,
+          "postedAt": "2026-10-19T09:53:22.857Z",
+          "status": "posted"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "sc-1",
+          "level": 1,
+          "dayNumber": 1,
+          "title": "تأسيس الشركة وضخ رأس المال",
+          "companyContext": "بدأت شركتك اليوم نشاطها الرسمي بمبلغ 100,000 د.ل كرأس مال استثماري.",
+          "transactionDescription": "أودع مؤسسو الشركة مبلغ 80,000 د.ل في الحساب الجاري بالبنك، ومبلغ 20,000 د.ل في خزينة الصندوق كنقدية تشغيلية أولية مقابل رأس المال.",
+          "amount": 100000,
+          "difficulty": "مبتدئ",
+          "expectedDebits": [
+            {
+              "accountCode": "1102",
+              "amount": 80000,
+              "description": "البنك - الحساب الجاري"
+            },
+            {
+              "accountCode": "1101",
+              "amount": 20000,
+              "description": "الصندوق / النقدية بالخزينة"
+            }
+          ],
+          "expectedCredits": [
+            {
+              "accountCode": "3101",
+              "amount": 100000,
+              "description": "رأس المال المدفوع"
+            }
+          ],
+          "hints": [
+            "الأصول زادت في البنك والصندوق فتكون مدينة (Debit).",
+            "حقوق الملكية (رأس المال) زادت فتكون دائنة (Credit).",
+            "إجمالي المدين يجب أن يساوي تماماً إجمالي الدائن (100,000)."
+          ],
+          "accountingPrinciple": "معادلة المركز المالي: الأصول = الخصوم + حقوق الملكية. زيادة الأصول مدين وزيادة رأس المال دائن.",
+          "xpReward": 100,
+          "scoreReward": 250,
+          "isCompleted": true
+        },
+        {
+          "id": "sc-2",
+          "level": 1,
+          "dayNumber": 2,
+          "title": "تجهيز المقر وشراء أثاث مكتبي",
+          "companyContext": "يحتاج فريق العمل لمكاتب وحواسيب لبدء التشغيل الفعلي.",
+          "transactionDescription": "قامت الشركة بشراء أثاث ومعدات مكتبية بمبلغ 15,000 د.ل، وتم سداد القيمة بالكامل عن طريق تحويل بنكي من حساب الشركة الجاري.",
+          "amount": 15000,
+          "difficulty": "مبتدئ",
+          "expectedDebits": [
+            {
+              "accountCode": "1201",
+              "amount": 15000,
+              "description": "الأثاث والتجهيزات المكتبية"
+            }
+          ],
+          "expectedCredits": [
+            {
+              "accountCode": "1102",
+              "amount": 15000,
+              "description": "البنك - الحساب الجاري"
+            }
+          ],
+          "hints": [
+            "الأثاث أصل ثابت زاد لدى الشركة (مدين).",
+            "رصيد البنك نقص بالسداد وهو أصل متداول (دائن عند النقصان)."
+          ],
+          "accountingPrinciple": "مبادلة أصل بأصل: أصل زاد (الأثاث - مدين) وأصل نقص (البنك - دائن) دون تغير في إجمالي الأصول.",
+          "xpReward": 120,
+          "scoreReward": 300
+        },
+        {
+          "id": "sc-3",
+          "level": 2,
+          "dayNumber": 3,
+          "title": "شراء بضاعة تجارية بالآجل من المورد",
+          "companyContext": "وصلت الشحنة الأولى من البضاعة من \"شركة التوريدات العالمية\".",
+          "transactionDescription": "اشترت الشركة بضاعة مخزون بقيمة 25,000 د.ل على الحساب (بالآجل) استحقاق السداد بعد 30 يوماً.",
+          "amount": 25000,
+          "difficulty": "متوسط",
+          "expectedDebits": [
+            {
+              "accountCode": "1104",
+              "amount": 25000,
+              "description": "بضاعة المخزون"
+            }
+          ],
+          "expectedCredits": [
+            {
+              "accountCode": "2101",
+              "amount": 25000,
+              "description": "الدائنون / الموردون"
+            }
+          ],
+          "hints": [
+            "المخزون أصل زاد بمقدار 25,000 (مدين).",
+            "التزام الشركة تجاه الموردين زاد (دائن)."
+          ],
+          "accountingPrinciple": "شراء بالآجل: زيادة في الأصول (المخزون) يقابلها زيادة في الالتزامات (الموردون).",
+          "xpReward": 150,
+          "scoreReward": 350
+        },
+        {
+          "id": "sc-4",
+          "level": 2,
+          "dayNumber": 4,
+          "title": "تقديم خدمات استشارية وتحصيل الإيراد نقداً",
+          "companyContext": "قدم مستشارو شركتك دراسة جدوى استراتيجية لأحد العملاء.",
+          "transactionDescription": "أنهت الشركة تقديم خدمة استشارية وحصلت على أتعابها بقيمة 12,000 د.ل نقداً وتم إيداعها في خزينة الصندوق.",
+          "amount": 12000,
+          "difficulty": "مبتدئ",
+          "expectedDebits": [
+            {
+              "accountCode": "1101",
+              "amount": 12000,
+              "description": "الصندوق / النقدية بالخزينة"
+            }
+          ],
+          "expectedCredits": [
+            {
+              "accountCode": "4102",
+              "amount": 12000,
+              "description": "إيرادات تقديم خدمات واستشارات"
+            }
+          ],
+          "hints": [
+            "النقدية في الخزينة زادت (أصل مدين).",
+            "الإيرادات تحققت وزادت (حساب ذو طبيعة دائنة)."
+          ],
+          "accountingPrinciple": "الاعتراف بالإيراد: عند تحقق الإيراد يُسجل في الجانب الدائن وتُسجل الزيادة النقدية في الجانب المدين.",
+          "xpReward": 130,
+          "scoreReward": 320
+        },
+        {
+          "id": "sc-5",
+          "level": 3,
+          "dayNumber": 5,
+          "title": "سداد دفعة للمورد من الحساب البنكي",
+          "companyContext": "حان موعد تسديد جزء من حساب المورد شركة التوريدات العالمية للحفاظ على الثقة الائتمانية.",
+          "transactionDescription": "سددت الشركة مبلغ 10,000 د.ل للمورد شركة التوريدات العالمية عبر تحويل مصرفي من الحساب الجاري.",
+          "amount": 10000,
+          "difficulty": "متوسط",
+          "expectedDebits": [
+            {
+              "accountCode": "2101",
+              "amount": 10000,
+              "description": "الدائنون / الموردون"
+            }
+          ],
+          "expectedCredits": [
+            {
+              "accountCode": "1102",
+              "amount": 10000,
+              "description": "البنك - الحساب الجاري"
+            }
+          ],
+          "hints": [
+            "الالتزام على الشركة انخفض بسداده (الخصوم تنخفض في الطرف المدين).",
+            "رصيد البنك نقص (الأصل ينقص في الطرف الدائن)."
+          ],
+          "accountingPrinciple": "سداد الالتزامات: انخفاض الخصوم مدين، وانخفاض الأصول دائن.",
+          "xpReward": 160,
+          "scoreReward": 380
+        },
+        {
+          "id": "sc-6",
+          "level": 3,
+          "dayNumber": 6,
+          "title": "بيع بضاعة بالآجل للعملاء",
+          "companyContext": "طلبت إحدى الشركات الكبرى شراء جزء من بضاعتك المتوفرة في المخازن.",
+          "transactionDescription": "باعت الشركة بضاعة تجارية بمبلغ 35,000 د.ل على الحساب للعميل \"مؤسسة الأفق\" (سعر البيع 35,000 د.ل).",
+          "amount": 35000,
+          "difficulty": "متوسط",
+          "expectedDebits": [
+            {
+              "accountCode": "1103",
+              "amount": 35000,
+              "description": "المدينون / العملاء"
+            }
+          ],
+          "expectedCredits": [
+            {
+              "accountCode": "4101",
+              "amount": 35000,
+              "description": "إيراد المبيعات التجارية"
+            }
+          ],
+          "hints": [
+            "ذمم العملاء (المدينون) زادت كحق للشركة (أصل مدين).",
+            "إيرادات المبيعات زادت (دائن)."
+          ],
+          "accountingPrinciple": "مبيعات آجلة: نشوء حق مستحق للشركة في ذمة العميل (مدين) مقابل الاعتراف بإيراد المبيعات (دائن).",
+          "xpReward": 180,
+          "scoreReward": 420
+        },
+        {
+          "id": "sc-7",
+          "level": 4,
+          "dayNumber": 7,
+          "title": "تحصيل مستحقات العملاء في الحساب البنكي",
+          "companyContext": "أرسل العميل \"مؤسسة الأفق\" إشعار تحويل مصرفي لسداد جزء كبير من مستحقاته.",
+          "transactionDescription": "تم استلام تحويل بنكي بقيمة 20,000 د.ل في حساب الشركة الجاري من العميل مؤسسة الأفق سداداً لحسابه الآجل.",
+          "amount": 20000,
+          "difficulty": "متوسط",
+          "expectedDebits": [
+            {
+              "accountCode": "1102",
+              "amount": 20000,
+              "description": "البنك - الحساب الجاري"
+            }
+          ],
+          "expectedCredits": [
+            {
+              "accountCode": "1103",
+              "amount": 20000,
+              "description": "المدينون / العملاء"
+            }
+          ],
+          "hints": [
+            "رصيد البنك زاد بالتحويل (أصل مدين).",
+            "رصيد مديونية العميل نقص بالسداد (أصل ينقص في الطرف الدائن)."
+          ],
+          "accountingPrinciple": "تحصيل الديون: زيادة نقدية بالبنك (مدين) وتخفيض رصيد حساب العميل المدين (دائن).",
+          "xpReward": 170,
+          "scoreReward": 400
+        },
+        {
+          "id": "sc-8",
+          "level": 4,
+          "dayNumber": 8,
+          "title": "سداد رواتب وأجور الموظفين",
+          "companyContext": "نهاية الشهر المالي، ويجب تحويل مستحقات فريق العمل والمطورين والمحاسبين.",
+          "transactionDescription": "صرفت الشركة رواتب وأجور الموظفين الشهرية بقيمة 14,000 د.ل بتحويل بنكي مباشر إلى حسابات الموظفين.",
+          "amount": 14000,
+          "difficulty": "متقدم",
+          "expectedDebits": [
+            {
+              "accountCode": "5102",
+              "amount": 14000,
+              "description": "مصروف الرواتب والأجور"
+            }
+          ],
+          "expectedCredits": [
+            {
+              "accountCode": "1102",
+              "amount": 14000,
+              "description": "البنك - الحساب الجاري"
+            }
+          ],
+          "hints": [
+            "مصروف الرواتب زاد (المصروفات بطبيعتها مدينة دائماً).",
+            "البنك نقص بقيمة التحويل (الأصل دائن عند النقصان)."
+          ],
+          "accountingPrinciple": "تسجيل المصروف الفعلي: المصروفات مدينة لأنها تمثل استخداماً للموارد وتخفض حقوق الملكية.",
+          "xpReward": 190,
+          "scoreReward": 450
+        },
+        {
+          "id": "sc-9",
+          "level": 5,
+          "dayNumber": 9,
+          "title": "الحصول على تمويل وقرض بنكي للتوسع",
+          "companyContext": "قرر مجلس إدارة الشركة التوسع في خطوط الإنتاج والتقنية عبر الحصول على تمويل مصرفي ميسر.",
+          "transactionDescription": "حصلت الشركة على قرض بنكي طويل الأجل بقيمة 50,000 د.ل تم إيداعه فوراً بالكامل في الحساب الجاري للشركة.",
+          "amount": 50000,
+          "difficulty": "متقدم",
+          "expectedDebits": [
+            {
+              "accountCode": "1102",
+              "amount": 50000,
+              "description": "البنك - الحساب الجاري"
+            }
+          ],
+          "expectedCredits": [
+            {
+              "accountCode": "2201",
+              "amount": 50000,
+              "description": "قروض وتسهيلات بنكية طويلة الأجل"
+            }
+          ],
+          "hints": [
+            "الأموال دخلت في حساب البنك (أصل مدين زاد بـ 50,000).",
+            "التزام القرض زاد على عاتق الشركة (خصوم طويلة الأجل دائنة بـ 50,000)."
+          ],
+          "accountingPrinciple": "التمويل بالاقتراض: زيادة في الأصول النقدية يقابلها زيادة متساوية في الخصوم طويلة الأجل.",
+          "xpReward": 220,
+          "scoreReward": 500
+        },
+        {
+          "id": "sc-10",
+          "level": 5,
+          "dayNumber": 10,
+          "title": "سداد فواتير الطاقة والإنترنت نقداً",
+          "companyContext": "وردت فواتير الكهرباء والإنترنت والاتصالات الخاصة بالمقر للشهر الحالي.",
+          "transactionDescription": "سددت الشركة فواتير المرافق والإنترنت البالغة 1,800 د.ل نقداً من خزينة الصندوق.",
+          "amount": 1800,
+          "difficulty": "مبتدئ",
+          "expectedDebits": [
+            {
+              "accountCode": "5104",
+              "amount": 1800,
+              "description": "مصروفات المرافق (كهرباء ومياه وإنترنت)"
+            }
+          ],
+          "expectedCredits": [
+            {
+              "accountCode": "1101",
+              "amount": 1800,
+              "description": "الصندوق / النقدية بالخزينة"
+            }
+          ],
+          "hints": [
+            "المصروف مدين دائماً.",
+            "الصندوق دفع القيمة فينقص ويكون دائناً."
+          ],
+          "accountingPrinciple": "دفع المصروفات التشغيلية نقداً: المصروف مدين والنقدية دائنة.",
+          "xpReward": 140,
+          "scoreReward": 320
+        }
+      ],
+      "customScenarios": []
+    }
+  },
+  "sessions": {
+    "demo-token-123": "demo-user-1",
+    "token-qa2jwlz7qt1792408626730": "demo-user-1",
+    "token-pz2zddmehh1792408637046": "demo-user-1"
+  }
+}

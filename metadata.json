@@ -1,0 +1,6 @@
+{
+  "name": "محاكي المحاسب المالي | Accounting Simulator",
+  "description": "لعبة محاكاة محاسبية تفاعلية لتسجيل قيود اليومية، إدارة شجرة الحسابات، توليد القوائم المالية، والتدقيق المالي الذكي عبر Gemini",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
